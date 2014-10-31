@@ -1,0 +1,24 @@
+{
+  "name": "codefellows-express-app",
+  "version": "0.1.0",
+  "description": "Hello world server / contact page",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crenwick/codefellows-express-app.git"
+  },
+  "author": "Charles R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crenwick/codefellows-express-app/issues"
+  },
+  "homepage": "https://github.com/crenwick/codefellows-express-app"
+}
