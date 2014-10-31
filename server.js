@@ -5,6 +5,10 @@ var express = require('express'),
 
 app.use(express.static(__dirname + '/public'));
 
+app.get('404', function (req, res) {
+    res.redirect('/404.html');
+});
+
 app.get('*', function (req, res) {
     res.redirect('/contact.html');
 });
